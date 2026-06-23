@@ -1,5 +1,23 @@
 # Release Notes / 发布说明
 
+## v0.1.2
+
+- 增加 `CodexLogFix-OneClick-Safe.zip`，作为普通用户推荐下载入口。
+- 更新 README，说明 raw `.cmd` 链接会在浏览器显示源码，这是 GitHub 的正常行为。
+
+## v0.1.2
+
+- Added `CodexLogFix-OneClick-Safe.zip` as the recommended download for most users.
+- Updated the README to explain that raw `.cmd` links may open as source text in the browser, which is normal GitHub behavior.
+
+## v0.1.1
+
+- 修复菜单交互模式，去掉 PowerShell `-NonInteractive` 参数。
+
+## v0.1.1
+
+- Fixed interactive menu mode by removing the PowerShell `-NonInteractive` flag.
+
 ## v0.1.0
 
 - 单文件 Windows `.cmd` 工具。

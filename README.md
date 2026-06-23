@@ -8,31 +8,45 @@ This is a one-file Windows utility that mitigates excessive SSD writes caused by
 
 ## 下载 / Download
 
-直接下载并双击运行：
+**推荐普通用户下载 ZIP 包：**
 
-Download directly and double-click:
+**Recommended for most users: download the ZIP package:**
+
+```text
+https://raw.githubusercontent.com/BH3HOF/codex-log-fix/main/CodexLogFix-OneClick-Safe.zip
+```
+
+下载后解压，双击：
+
+After downloading, unzip it and double-click:
 
 ```text
 CodexLogFix-OneClick-Safe.cmd
 ```
 
-直链 / Direct link:
+也可以打开仓库页面，在文件列表里下载：
+
+You can also download it from the repository file list:
 
 ```text
-https://raw.githubusercontent.com/BH3HOF/codex-log-fix/main/CodexLogFix-OneClick-Safe.cmd
+https://github.com/BH3HOF/codex-log-fix
 ```
+
+说明：`.cmd` 的 raw 直链通常会在浏览器里显示源码，而不是直接下载。这是 GitHub 的正常行为。如果你打开后看到脚本内容，请右键另存为 `CodexLogFix-OneClick-Safe.cmd`，或者使用上面的 ZIP 下载链接。
+
+Note: a raw `.cmd` link often opens as plain text in the browser instead of downloading directly. This is normal GitHub behavior. If you see the script source, right-click and save it as `CodexLogFix-OneClick-Safe.cmd`, or use the ZIP link above.
 
 ## 功能 / Features
 
 - 生效：阻止新的 Codex 日志写入
 - 恢复默认：允许 Codex 日志写入
 - 查看状态：显示日志库大小、WAL 文件状态、日志行数和补丁状态
-- 单文件分发：不内嵌可执行文件，降低杀毒软件误报概率
+- 单文件工具：脚本本身不内嵌可执行文件，降低杀毒软件误报概率
 
 - Apply fix: block new Codex log inserts
 - Restore default: allow Codex log inserts again
 - Check status: show database size, WAL status, row count, and patch status
-- Single-file distribution: does not embed executable binaries, reducing antivirus false positives
+- One-file tool: the script itself does not embed executable binaries, reducing antivirus false positives
 
 ## 它做了什么 / What It Does
 
@@ -71,22 +85,24 @@ This ignores new diagnostic log inserts. Restoring the default behavior removes 
 ## 使用方法 / Usage
 
 1. 关闭多余的 Codex 桌面窗口、VSCode Codex 会话和 Codex CLI。
-2. 双击 `CodexLogFix-OneClick-Safe.cmd`。
-3. 在菜单里选择：
+2. 下载并解压 `CodexLogFix-OneClick-Safe.zip`。
+3. 双击 `CodexLogFix-OneClick-Safe.cmd`。
+4. 在菜单里选择：
    - `1` 生效
    - `2` 恢复默认
    - `3` 查看状态
    - `4` 退出
-4. 建议重启 Codex。
+5. 建议重启 Codex。
 
 1. Close extra Codex Desktop windows, VSCode Codex sessions, and Codex CLI processes.
-2. Double-click `CodexLogFix-OneClick-Safe.cmd`.
-3. Choose from the menu:
+2. Download and unzip `CodexLogFix-OneClick-Safe.zip`.
+3. Double-click `CodexLogFix-OneClick-Safe.cmd`.
+4. Choose from the menu:
    - `1` Apply fix
    - `2` Restore default
    - `3` Check status
    - `4` Exit
-4. Restart Codex if possible.
+5. Restart Codex if possible.
 
 ## sqlite3.exe 来源 / sqlite3.exe Source
 

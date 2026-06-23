@@ -1,4 +1,5 @@
 *.zip
+!CodexLogFix-OneClick-Safe.zip
 *.exe
 *.sqlite
 *.sqlite-wal
@@ -6,4 +7,3 @@
 *.log
 *.tmp
 *.bak
-

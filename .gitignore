@@ -1,0 +1,9 @@
+*.zip
+*.exe
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.log
+*.tmp
+*.bak
+

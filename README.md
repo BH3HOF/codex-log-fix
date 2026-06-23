@@ -8,12 +8,18 @@ This is a one-file Windows utility that mitigates excessive SSD writes caused by
 
 ## 下载 / Download
 
-下载并双击运行：
+直接下载并双击运行：
 
-Download and double-click:
+Download directly and double-click:
 
 ```text
 CodexLogFix-OneClick-Safe.cmd
+```
+
+直链 / Direct link:
+
+```text
+https://raw.githubusercontent.com/BH3HOF/codex-log-fix/main/CodexLogFix-OneClick-Safe.cmd
 ```
 
 ## 功能 / Features
